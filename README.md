@@ -72,6 +72,7 @@ yarn dev
 ### Device Configuration
 
 #### Switch
+```json
 {
   "type": "switch",
   "config": {
@@ -79,16 +80,20 @@ yarn dev
     "offMessage": "OFF"
   }
 }
+```
 
 #### Button
+```json
 {
   "type": "button",
   "config": {
     "buttonMessage": "PRESS"
   }
 }
+```
 
 #### Slider
+```json
 {
   "type": "slider",
   "config": {
@@ -97,14 +102,17 @@ yarn dev
     "unit": "%"
   }
 }
+```
 
 #### Read
+```json
 {
   "type": "read",
   "config": {
     "unit": "°C"
   }
 }
+```
 
 ## 🛠️ Technology Stack
 
@@ -122,7 +130,7 @@ yarn dev
   - [MQTT.js](https://github.com/mqttjs/MQTT.js)
 
 ## 📁 Project Structure
-
+```
 homator/
 ├── app/                    # Next.js app directory
 │   ├── layout.tsx         # Root layout
@@ -134,7 +142,7 @@ homator/
 ├── lib/                  # Utilities
 ├── public/               # Static assets
 └── types/                # TypeScript types
-
+```
 ## 🤝 Contributing
 
 We welcome contributions! Please follow these steps:

@@ -3,8 +3,8 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Your App Name',
-  description: 'Your app description',
+  title: 'Homator',
+  description: 'Home Automation Dashboard',
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
